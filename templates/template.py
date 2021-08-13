@@ -5,7 +5,7 @@ import argparse
 def main(*args):
     parser = argparse.ArgumentParser()
 
-    args = argparse.parse_args(args)
+    args = parser.parse_args(args)
 
 
 
